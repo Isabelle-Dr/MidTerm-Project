@@ -32,3 +32,20 @@ org/repo/
 ├── CODE_OF_CONDUCT.md 
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
+```
+
+### System Requirements
+
+This project is developed using Python.  
+It runs on a Windows system.
+
+### Data Requirements
+
+The project pulls data from the air travel industry hosted on AWS.
+The files in the Data folder in the repo have already been cleaned
+### Key Outputs
+
+This project will generate something that provides the following information:
+- Regression Problem: The goal is to predict delay of flights.
+- Multiclass Classification: If the plane was delayed, we will predict what type of delay it is (will be).
+- Binary Classification: The goal is to predict if the flight will be cancelled.
