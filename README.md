@@ -15,6 +15,8 @@ org/repo/
 │   ├── passengers_cleaned.csv                        # passengers DB after cleanining
 │   ├── flights_nullsremoved.csv                      # flights DB after cleaning
 |   ├── EDA_Task10_data                               # data used to answer Task 10 (used in the second aprt of the notebook)
+│   ├──flights_sample_small.csv                       # 1000 observation sample of flights 
+│   ├──flights_sample_large.csv                       # 50000000 observation sample of flights
 │   ├──
 │
 │
@@ -24,15 +26,16 @@ org/repo/
 │   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
 │   ├── EDA_passengers.ipynb                          # notebook that has passengers_cleaned.csv as input
 │   ├── EDA_Task 1.ipynb                        
-│   ├── EDA_Task 2.ipynb
-│   ├── EDA_Task 3.ipynb
-│   ├── EDA_Task 4.ipynb
-│   ├── EDA_Task 5.ipynb
-│   ├── EDA_Task 6.ipynb
-│   ├── EDA_Task 7.ipynb
-│   ├── EDA_Task 8.ipynb
+│   ├── EDA_Task 2.ipynb                              # notebook that has flights_sample_large as input
+│   ├── EDA_Task 3.ipynb                              
+│   ├── EDA_Task 4.ipynb                              # notebook that has flights_sample_large as input
+│   ├── EDA_Task 5 and 7.ipynb                        # notebook that has flights_sample_large as input
+│   ├── EDA_Task 6.ipynb                              # notebook that has flights_sample_large as input
+│   ├── EDA_Task 8.ipynb                              # notebook that has flights_sample_large as input
 │   ├── EDA_Task 9.ipynb
 │   ├── EDA_Task 10.ipynb
+│   ├── flights data data collection.ipynb
+│   ├── ExtractSample.ipynb                          # notebook that has flights_nullsremoved as input
 │
 ├── output   
 │
@@ -49,7 +52,7 @@ org/repo/
 ### System Requirements
 
 This project is developed using Python.  
-It runs on a Windows system.
+It runs on a Windows and Mac system.
 
 ### Data Requirements
 
