@@ -22,16 +22,16 @@ org/repo/
 │   ├── DataCleaning_Passengers+FuelCons.ipynb        # notebook that has the files passengers_cleaned.csv and fuel_cleaned.csv as outputs           
 │   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
 │   ├── EDA_passengers.ipynb                          # notebook that has passengers_cleaned.csv as input
-│   ├── Task 1                        
-│   ├── Task 2
-│   ├── Task 3
-│   ├── Task 4
-│   ├── Task 5
-│   ├── Task 6
-│   ├── Task 7
-│   ├── Task 8
-│   ├── Task 9
-│   ├── Task 10
+│   ├── Task 1.ipynb                        
+│   ├── Task 2.ipynb
+│   ├── Task 3.ipynb
+│   ├── Task 4.ipynb
+│   ├── Task 5.ipynb
+│   ├── Task 6.ipynb
+│   ├── Task 7.ipynb
+│   ├── Task 8.ipynb
+│   ├── Task 9.ipynb
+│   ├── Task 10.ipynb
 │
 ├── output   
 │
