@@ -13,8 +13,9 @@ org/repo/
 ├── Data
 │   ├── fuel_cleaned.csv                              # fuels DB after cleanining
 │   ├── passengers_cleaned.csv                        # passengers DB after cleanining
-│   └── flights_nullsremoved.csv                      # flights DB after cleaning
-│
+│   ├── flights_nullsremoved.csv                      # flights DB after cleaning
+|   ├── EDA_Task10_data                               # data used to answer Task 10 (used in the second aprt of the notebook)
+│   ├──
 │
 │
 
@@ -22,16 +23,16 @@ org/repo/
 │   ├── DataCleaning_Passengers+FuelCons.ipynb        # notebook that has the files passengers_cleaned.csv and fuel_cleaned.csv as outputs           
 │   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
 │   ├── EDA_passengers.ipynb                          # notebook that has passengers_cleaned.csv as input
-│   ├── Task 1.ipynb                        
-│   ├── Task 2.ipynb
-│   ├── Task 3.ipynb
-│   ├── Task 4.ipynb
-│   ├── Task 5.ipynb
-│   ├── Task 6.ipynb
-│   ├── Task 7.ipynb
-│   ├── Task 8.ipynb
-│   ├── Task 9.ipynb
-│   ├── Task 10.ipynb
+│   ├── EDA_Task 1.ipynb                        
+│   ├── EDA_Task 2.ipynb
+│   ├── EDA_Task 3.ipynb
+│   ├── EDA_Task 4.ipynb
+│   ├── EDA_Task 5.ipynb
+│   ├── EDA_Task 6.ipynb
+│   ├── EDA_Task 7.ipynb
+│   ├── EDA_Task 8.ipynb
+│   ├── EDA_Task 9.ipynb
+│   ├── EDA_Task 10.ipynb
 │
 ├── output   
 │
