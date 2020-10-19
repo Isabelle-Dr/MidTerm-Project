@@ -29,6 +29,10 @@ org/repo/
 ├── output   
 │
 │
+├── Database Structure.xlsx                           # Structure of raw database used in this project
+├── EDA notes.docx                                    # Notes and hypothesis during EDA
+├── Mid-term timeline project.docx                    # Project timeline
+│
 ├── CODE_OF_CONDUCT.md 
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
