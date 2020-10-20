@@ -38,6 +38,11 @@ org/repo/
 │   ├── EDA_Task 10.ipynb                             # notebook that has flights_nullsremoved.csv, fuel_cleaned.csv and passengers_cleaned.csv as inputs
 │   ├── flights data data collection.ipynb
 │   ├── ExtractSample.ipynb                           # notebook that has flights_nullsremoved.csv as input
+│   ├── MODEL_SELECTION_Regression.ipynb                           
+│   ├── MODEL_SELECTION_Multiclass_classification.ipynb                           
+│   ├──MODEL_SELECTION_Binary_classification.ipynb
+│
+│
 │
 ├── output   
 │
