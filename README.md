@@ -14,14 +14,13 @@ org/repo/
 │   ├── fuel_cleaned.csv                              # fuels DB after cleanining
 │   ├── passengers_cleaned.csv                        # passengers DB after cleanining
 │   ├── flights_nullsremoved.csv                      # flights DB after cleaning
-
 |   ├── EDA_Task10_data                               # data used to answer Task 10 (used in the second aprt of the notebook)
-│   ├──flights_sample_small.csv                       # 1000 observation sample of flights 
-│   ├──flights_sample_large.csv                       # 50000000 observation sample of flights
-│   ├──flights_test_week.csv                          # containing first week of January 2020
+│   ├── flights_sample_small.csv                       # 1000 observation sample of flights 
+│   ├── flights_sample_large.csv                       # 50000000 observation sample of flights
+│   ├── flights_test_week.csv                          # containing first week of January 2020
 │
 │
-
+│
 ├── Notebooks
 │   ├── DataCleaning_Passengers+FuelCons.ipynb        # notebook that has the files passengers_cleaned.csv and fuel_cleaned.csv as outputs           
 │   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
