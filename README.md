@@ -26,16 +26,16 @@ org/repo/
 │   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
 │   ├── EDA_passengers.ipynb                          # notebook that has passengers_cleaned.csv as input
 │   ├── EDA_Task 1.ipynb                        
-│   ├── EDA_Task 2.ipynb                              # notebook that has flights_sample_large as input
+│   ├── EDA_Task 2.ipynb                              # notebook that has flights_sample_large.csv as input
 │   ├── EDA_Task 3.ipynb                              
-│   ├── EDA_Task 4.ipynb                              # notebook that has flights_sample_large as input
-│   ├── EDA_Task 5 and 7.ipynb                        # notebook that has flights_sample_large as input
-│   ├── EDA_Task 6.ipynb                              # notebook that has flights_sample_large as input
-│   ├── EDA_Task 8.ipynb                              # notebook that has flights_sample_large as input
-│   ├── EDA_Task 9.ipynb
-│   ├── EDA_Task 10.ipynb
+│   ├── EDA_Task 4.ipynb                              # notebook that has flights_sample_large.csv as input
+│   ├── EDA_Task 5 and 7.ipynb                        # notebook that has flights_sample_large.csv as input
+│   ├── EDA_Task 6.ipynb                              # notebook that has flights_sample_large.csv as input
+│   ├── EDA_Task 8.ipynb                              # notebook that has flights_sample_large.csv as input
+│   ├── EDA_Task 9.ipynb                              # notebook that has passengers_cleaned.csv as input
+│   ├── EDA_Task 10.ipynb                             # notebook that has flights_nullsremoved.csv, fuel_cleaned.csv and passengers_cleaned.csv as inputs
 │   ├── flights data data collection.ipynb
-│   ├── ExtractSample.ipynb                          # notebook that has flights_nullsremoved as input
+│   ├── ExtractSample.ipynb                           # notebook that has flights_nullsremoved.csv as input
 │
 ├── output   
 │
