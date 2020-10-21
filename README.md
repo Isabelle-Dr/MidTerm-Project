@@ -5,6 +5,104 @@ Mid term project for LighthouseLabs
 - Isabelle de Robert
 - Maggie Fiander
 
+NEW STRUCTURE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# How to use this repo
+The structure is as follows:
+
+```bash
+org/repo/
+├── Data/
+|     ├── 1. Preprocess & Clean data
+|     |     ├── fuel_cleaned.csv                   # fuels DB after cleanining      
+│     |     ├── passengers_cleaned.csv             # passengers DB after cleanining  
+│     |     ├── Flights_nullsremoved.csv           # flights DB after cleaning      
+|     |     ├── flights_sample_large.csv           # 50000000 observation sample of flights   
+|     |     └── flights_sample_small.csv           # 1000 observation sample of flights             
+|     |
+|     ├── 2. EDA data
+|     |     └── EDA_Task10_data.csv               # data used to answer Task 10 
+|     |
+|     ├── 3. Feature engineering & selection data
+|     |     ├── flights_cleaned.csv               # containing flights data following feature engineering & selection  
+|     |     └── flights_pca.csv                 # containing flights data following PCA   
+|     |
+|     ├── 4. Model Selection data
+|     |     ├── db_regression_sample.csv     # 1000000 observations sample for regression model selection containing only selected features
+|     |     ├── db_multiclass_sample.csv     # 1000000 observations sample for regression model selection containing only selected features
+|     |     ├── db_binary_sample.csv         # 1000000 observations sample for regression model selection containing only selected features
+|     |     ├── bd_regression_data.csv            
+|     |     ├── bd_multiclass_data.csv
+|     |     └── bd_binary_data.csv
+|     |     
+|     ├── 5. Model training & predictions
+|     |     ├── regression_submission.csv
+|     |     ├── multiclass_submission.csv
+|     |     └── binary_submission.csv
+|     |
+|     ├── 9. Other data
+|           ├── flights_test_week.csv        # containing first week of January 2020, no other transformation made 
+│
+├── Notebooks/
+|     ├── 1. Preprocess & Clean notebooks
+|     |     ├── 1_passengers_fuel_preprocess.ipynb  # outputs fuel_cleaned.csv and passengers_cleaned.csv /OLD NAME DataCleaning_Passengers+FuelCons.ipynb
+│     |     ├── 1_flights data data collection.ipynb / OLD NAME flights data data collection.ipynb
+│     |     ├── 1_Flights Outlier Detection.ipynb # notebook that has flight_sample_large.csv as input
+│     |     ├── 
+|     |     └── 
+|     |      
+|     ├── 2. EDA notebooks
+|     |     ├── 2_fuel_EDA.ipynb     # EDA on fuels database, has fuel_cleaned.csv as input   / OLD NAME EDA fuel.ipynb
+│     |     ├── 2_passengers_EDA.ipynb      # EDA on passengers database, has passengers_cleaned.csv as input   / OLD NAME EDA passengers.ipynb
+│     |     ├── 2_ExtractSample.ipynb   # notebook that has flights_nullsremoved.csv as input/ OLD NAME ExtractSample.ipynb
+│     |     ├── 2_flights_EDA.ipynb   # EDA on flights databse, has flights_sample_large.csv as input / OLD NAME EDA flights
+|     |     ├── 2_Task1     # has Flights_nullsremoved.csv as input / OLD NAME EDA_Task 1.ipynb
+|     |     ├── 2_Task2     # has flights_sample_large.csv as input / OLD NAME EDA_Task 2.ipynb
+|     |     ├── 2_Task3     # has flights_sample_large.csv as input / OLD NAME EDA_Task 3.ipynb
+|     |     ├── 2_Task4     # has flights_sample_large.csv as input / OLD NAME EDA_Task 4.ipynb
+|     |     ├── 2_Task5_7     # has flights_sample_large.csv as input / OLD NAME EDA_Task 5 and 7.ipynb
+|     |     ├── 2_Task6     # has flights_sample_large.csv as input / OLD NAME EDA_Task 6.ipynb
+|     |     ├── 2_Task8     # has flights_sample_large.csv as input / OLD NAME EDA_Task 8.ipynb
+|     |     ├── 2_Task9     # has Flights_nullsremoved.csv as input / OLD NAME EDA_Task 9.ipynb
+|     |     ├── 2_Task10     # has passengers_cleaned.csv,  fuel_cleaned.csv, Flights_nullsremoved.csv as input / OLD NAME EDA_Task 9.ipynb
+|     |     └── 
+|     ├── 3. Feature engineering & selection notebooks
+│     |     ├── 3_Flights Feature Selection and Data Cleaning.ipynb   # notebook that has Flights_nullsremoved.csv as input
+│     |     ├── 3_Dimensionality Reduction.ipynb                # notebook that has flights_cleaned.csv as input
+|     |     ├── 
+|     |     └── 
+|     ├── 4. Model Selection notebooks
+|     |     ├── 4_sample_creation       # has flights_cleaned.csv as input and has db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv as outputs
+│     |     ├── 4_Regression.ipynb      # has db_regression_sample.csv as input / OLD NAME MODEL_SELECTION_Regression.ipynb 
+│     |     ├── 4_Multiclass_classification.ipynb  # has db_multiclass_sample.csv as input     / OLD NAME  MODEL_SELECTION_Multiclass_classification.ipynb
+|     |     └── 4_Binary_classification.ipynb     # has db_binary_sample.csv as input    / OLD NAME MODEL_SELECTION_Binary_classification.ipynb
+|     |      
+|     ├── 5. Model training & predictions
+|     |     ├── 
+│     |     ├── 
+│     |     ├── 
+|     |     └── 
+|     
+├── 9. Other notebooks
+|           ├── 9_EDA flight_test_get_week     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
+│
+│
+├── output   
+│
+│
+├── Database Structure.xlsx                           # Structure of raw database used in this project
+├── EDA notes.docx                                    # Notes and hypothesis during EDA
+├── Mid-term timeline project.docx                    # Project timeline
+│
+├── CODE_OF_CONDUCT.md 
+├── LICENSE                                           # MIT license 
+└── README.md                                         # This file
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OLD
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # How to use this repo
 The structure is as follows:
 
@@ -60,6 +158,8 @@ org/repo/
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
 ```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### System Requirements
 
