@@ -17,6 +17,7 @@ org/repo/
 |     ├── 1. Preprocess & Clean data
 |     |     ├── fuel_cleaned.csv                   # fuels DB after cleanining      
 │     |     ├── passengers_cleaned.csv             # passengers DB after cleanining  
+│     |     ├── Flights_raw.csv                    # flights DB after cleaning      
 │     |     ├── Flights_nullsremoved.csv           # flights DB after cleaning      
 |     |     ├── flights_sample_large.csv           # 50000000 observation sample of flights    
 |     |     └── flights_sample_small.csv           # 1000 observation sample of flights    
@@ -48,8 +49,8 @@ org/repo/
 ├── Notebooks/
 |     ├── 1. Preprocess & Clean notebooks
 |     |     ├── 1_passengers_fuel_preprocess.ipynb  # outputs fuel_cleaned.csv and passengers_cleaned.csv 
-│     |     ├── 1_flights data data collection.ipynb / OLD NAME flights data data collection.ipynb
-│     |     ├── 
+│     |     ├── 1_flights_data_collection.ipynb     #outputs flights_raw.csv
+│     |     ├── 1_flights_null_treatment.ipynb      #outputs flights_nullsremoved.csv
 |     |     └── 
 |     |      
 |     ├── 2. EDA notebooks
