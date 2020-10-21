@@ -41,12 +41,12 @@ org/repo/
 │   ├── flights data data collection.ipynb  
 │   ├── ExtractSample.ipynb                           # notebook that has flights_nullsremoved.csv as input
 │   ├── Flights Feature Selection and Data Cleaning.ipynb   #notebook that has flights_nullsremoved.csv as input
-│   ├── Dimensionality Reduction.ipynb               #notebook that has flights_cleaned.csv as input
-│   ├── Flights Outlier Detection.ipynb              #notebook that has flights_nullsremoved.csv as input
+│   ├── Dimensionality Reduction.ipynb                # notebook that has flights_cleaned.csv as input
+│   ├── Flights Outlier Detection.ipynb               # notebook that has flights_nullsremoved.csv as input
+│   ├── MODEL_SELECTION_sample creation.ipynb        notebook that creates db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv
 │   ├── MODEL_SELECTION_Regression.ipynb                           
 │   ├── MODEL_SELECTION_Multiclass_classification.ipynb                           
 │   ├── MODEL_SELECTION_Binary_classification.ipynb
-│
 │
 │
 ├── output   
