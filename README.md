@@ -18,15 +18,16 @@ org/repo/
 |     |     ├── fuel_cleaned.csv                   # fuels DB after cleanining      
 │     |     ├── passengers_cleaned.csv             # passengers DB after cleanining  
 │     |     ├── Flights_nullsremoved.csv           # flights DB after cleaning      
-|     |     ├── flights_sample_large.csv           # 50000000 observation sample of flights   
-|     |     └── flights_sample_small.csv           # 1000 observation sample of flights             
+|     |     ├── flights_sample_large.csv           # 50000000 observation sample of flights    
+|     |     └── flights_sample_small.csv           # 1000 observation sample of flights    
 |     |
 |     ├── 2. EDA data
 |     |     └── EDA_Task10_data.csv               # data used to answer Task 10 
 |     |
 |     ├── 3. Feature engineering & selection data
 |     |     ├── flights_cleaned.csv               # containing flights data following feature engineering & selection  
-|     |     └── flights_pca.csv                 # containing flights data following PCA   
+|     |     ├── flights_scaled.csv                # containing flights data following scaling
+|     |     └── flights_pca.csv                   # containing flights data following PCA   
 |     |
 |     ├── 4. Model Selection data
 |     |     ├── db_regression_sample.csv     # 1000000 observations sample for regression model selection containing only selected features
@@ -87,7 +88,9 @@ org/repo/
 ├── 9. Other notebooks
 |           ├── 9_EDA flight_test_get_week.ipynb     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
 │
-├── Pickerfiles/
+├── Picklefiles/
+│     |     ├── scaler.pkl
+│     |     ├── pca.pkl
 │
 ├── output/   
 │
