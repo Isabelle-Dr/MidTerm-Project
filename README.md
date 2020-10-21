@@ -46,26 +46,26 @@ org/repo/
 │
 ├── Notebooks/
 |     ├── 1. Preprocess & Clean notebooks
-|     |     ├── 1_passengers_fuel_preprocess.ipynb  # outputs fuel_cleaned.csv and passengers_cleaned.csv /OLD NAME DataCleaning_Passengers+FuelCons.ipynb
+|     |     ├── 1_passengers_fuel_preprocess.ipynb  # outputs fuel_cleaned.csv and passengers_cleaned.csv 
 │     |     ├── 1_flights data data collection.ipynb / OLD NAME flights data data collection.ipynb
 │     |     ├── 1_Flights Outlier Detection.ipynb # notebook that has flight_sample_large.csv as input
 │     |     ├── 
 |     |     └── 
 |     |      
 |     ├── 2. EDA notebooks
-|     |     ├── 2_fuel_EDA.ipynb     # EDA on fuels database, has fuel_cleaned.csv as input   / OLD NAME EDA fuel.ipynb
-│     |     ├── 2_passengers_EDA.ipynb      # EDA on passengers database, has passengers_cleaned.csv as input   / OLD NAME EDA passengers.ipynb
+|     |     ├── 2_fuel_EDA.ipynb     # EDA on fuels database, has fuel_cleaned.csv as input  
+│     |     ├── 2_passengers_EDA.ipynb      # EDA on passengers database, has passengers_cleaned.csv as input
 │     |     ├── 2_ExtractSample.ipynb   # notebook that has flights_nullsremoved.csv as input/ OLD NAME ExtractSample.ipynb
 │     |     ├── 2_flights_EDA.ipynb   # EDA on flights databse, has flights_sample_large.csv as input / OLD NAME EDA flights
-|     |     ├── 2_Task1     # has Flights_nullsremoved.csv as input / OLD NAME EDA_Task 1.ipynb
-|     |     ├── 2_Task2     # has flights_sample_large.csv as input / OLD NAME EDA_Task 2.ipynb
-|     |     ├── 2_Task3     # has flights_sample_large.csv as input / OLD NAME EDA_Task 3.ipynb
-|     |     ├── 2_Task4     # has flights_sample_large.csv as input / OLD NAME EDA_Task 4.ipynb
-|     |     ├── 2_Task5_7     # has flights_sample_large.csv as input / OLD NAME EDA_Task 5 and 7.ipynb
-|     |     ├── 2_Task6     # has flights_sample_large.csv as input / OLD NAME EDA_Task 6.ipynb
-|     |     ├── 2_Task8     # has flights_sample_large.csv as input / OLD NAME EDA_Task 8.ipynb
-|     |     ├── 2_Task9     # has Flights_nullsremoved.csv as input / OLD NAME EDA_Task 9.ipynb
-|     |     ├── 2_Task10     # has passengers_cleaned.csv,  fuel_cleaned.csv, Flights_nullsremoved.csv as input / OLD NAME EDA_Task 9.ipynb
+|     |     ├── 2_Task1.ipynb     # has Flights_nullsremoved.csv as input / OLD NAME EDA_Task 1.ipynb
+|     |     ├── 2_Task2.ipynb     # has flights_sample_large.csv as input / OLD NAME EDA_Task 2.ipynb
+|     |     ├── 2_Task3.ipynb     # has flights_sample_large.csv as input
+|     |     ├── 2_Task4.ipynb     # has flights_sample_large.csv as input / OLD NAME EDA_Task 4.ipynb
+|     |     ├── 2_Task5_7.ipynb     # has flights_sample_large.csv as input / OLD NAME EDA_Task 5 and 7.ipynb
+|     |     ├── 2_Task6.ipynb     # has flights_sample_large.csv as input / OLD NAME EDA_Task 6.ipynb
+|     |     ├── 2_Task8.ipynb     # has flights_sample_large.csv as input / OLD NAME EDA_Task 8.ipynb
+|     |     ├── 2_Task9.ipynb     # has Flights_nullsremoved.csv as input 
+|     |     ├── 2_Task10.ipynb     # has passengers_cleaned.csv,  fuel_cleaned.csv, Flights_nullsremoved.csv as input
 |     |     └── 
 |     ├── 3. Feature engineering & selection notebooks
 │     |     ├── 3_Flights Feature Selection and Data Cleaning.ipynb   # notebook that has Flights_nullsremoved.csv as input
@@ -73,10 +73,10 @@ org/repo/
 |     |     ├── 
 |     |     └── 
 |     ├── 4. Model Selection notebooks
-|     |     ├── 4_sample_creation       # has flights_cleaned.csv as input and has db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv as outputs
-│     |     ├── 4_Regression.ipynb      # has db_regression_sample.csv as input / OLD NAME MODEL_SELECTION_Regression.ipynb 
-│     |     ├── 4_Multiclass_classification.ipynb  # has db_multiclass_sample.csv as input     / OLD NAME  MODEL_SELECTION_Multiclass_classification.ipynb
-|     |     └── 4_Binary_classification.ipynb     # has db_binary_sample.csv as input    / OLD NAME MODEL_SELECTION_Binary_classification.ipynb
+|     |     ├── 4_sample_creation.ipynb       # has flights_cleaned.csv as input and has db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv as outputs
+│     |     ├── 4_Regression.ipynb      # has db_regression_sample.csv as input
+│     |     ├── 4_Multiclass_classification.ipynb  # has db_multiclass_sample.csv as input   
+|     |     └── 4_Binary_classification.ipynb     # has db_binary_sample.csv as input   
 |     |      
 |     ├── 5. Model training & predictions
 |     |     ├── 
@@ -85,7 +85,7 @@ org/repo/
 |     |     └── 
 |     
 ├── 9. Other notebooks
-|           ├── 9_EDA flight_test_get_week     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
+|           ├── 9_EDA flight_test_get_week.ipynb     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
 │
 ├── Pickerfiles/
 │
