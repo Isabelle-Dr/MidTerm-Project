@@ -87,8 +87,9 @@ org/repo/
 ├── 9. Other notebooks
 |           ├── 9_EDA flight_test_get_week     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
 │
+├── Pickerfiles/
 │
-├── output   
+├── output/   
 │
 │
 ├── Database Structure.xlsx                           # Structure of raw database used in this project
