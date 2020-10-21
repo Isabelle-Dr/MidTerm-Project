@@ -5,8 +5,6 @@ Mid term project for LighthouseLabs
 - Isabelle de Robert
 - Maggie Fiander
 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # How to use this repo
 The structure is as follows:
 
@@ -31,9 +29,12 @@ org/repo/
 |     |     └── flights_pca.csv                   # containing flights data following PCA   
 |     |
 |     ├── 4. Model Selection data
-|     |     ├── db_regression_sample.csv     # 1000000 observations sample for regression model selection containing only selected features
-|     |     ├── db_multiclass_sample.csv     # 1000000 observations sample for regression model selection containing only selected features
-|     |     ├── db_binary_sample.csv         # 1000000 observations sample for regression model selection containing only selected features
+|     |     ├── db_regression_sample.csv     # 1000000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_multiclass_sample.csv     # 1000000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_binary_sample.csv         # 1000000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_binary_pca_sample.csv     # 1000000 observations sample for regression model selection, child of fights_pca
+|     |     ├── db_multiclass_pca_sample.csv  # 1000000 observations sample for regression model selection, child of fights_pca
+|     |     ├── db_regression_pca_sample.csv  # 1000000 observations sample for regression model selection, child of fights_pca
 |     |     ├── bd_regression_data.csv            
 |     |     ├── bd_multiclass_data.csv
 |     |     └── bd_binary_data.csv
@@ -76,9 +77,9 @@ org/repo/
 |     |     └── 
 |     ├── 4. Model Selection notebooks
 |     |     ├── 4_sample_creation.ipynb       # has flights_cleaned.csv as input and has db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv as outputs
-│     |     ├── 4_Regression.ipynb      # has db_regression_sample.csv as input
-│     |     ├── 4_Multiclass_classification.ipynb  # has db_multiclass_sample.csv as input   
-|     |     └── 4_Binary_classification.ipynb     # has db_binary_sample.csv as input   
+│     |     ├── 4_Regression.ipynb             # has db_regression_sample.csv and db_regression_pca_sample.csv as input
+│     |     ├── 4_Multiclass_classification.ipynb  # has db_multiclass_sample.csv and db_multiclass_pca_sample.csv as input   
+|     |     └── 4_Binary_classification.ipynb     # has db_binary_sample.csv and db_binary_pca_sample.csv as input   
 |     |      
 |     ├── 5. Model training & predictions
 |     |     ├── 
@@ -104,64 +105,6 @@ org/repo/
 ├── LICENSE                                           # MIT license 
 └── README.md                                         # This file
 ```
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# OLD STRUCTURE
-
-```bash
-org/repo/
-├── Data
-│   ├── fuel_cleaned.csv                              # fuels DB after cleanining
-│   ├── passengers_cleaned.csv                        # passengers DB after cleanining
-│   ├── flights_nullsremoved.csv                      # flights DB after cleaning
-|   ├── EDA_Task10_data                               # data used to answer Task 10 (used in the second aprt of the notebook)
-│   ├── flights_sample_small.csv                       # 1000 observation sample of flights 
-│   ├── flights_sample_large.csv                       # 50000000 observation sample of flights
-│   ├── flights_test_week.csv                          # containing first week of January 2020
-│   ├── flights_cleaned.csv                            # containing flights data following feature selection
-│   ├── flights_pca.csv                                # containing flights data following PCA
-│
-│
-│
-├── Notebooks
-│   ├── DataCleaning_Passengers+FuelCons.ipynb        # notebook that has the files passengers_cleaned.csv and fuel_cleaned.csv as outputs           
-│   ├── EDA fuel.ipynb                                # notebook that has fuel_cleaned.csv as input
-│   ├── EDA_passengers.ipynb                          # notebook that has passengers_cleaned.csv as input
-│   ├── EDA flights                                   
-│   ├── EDA flight_test_get_week                      # notebook creating the flights_test_week.csv
-│   ├── EDA_Task 1.ipynb                              # notebook that has flights_nullsremoved.csv as input
-│   ├── EDA_Task 2.ipynb                              # notebook that has flights_sample_large.csv as input
-│   ├── EDA_Task 3.ipynb                              
-│   ├── EDA_Task 4.ipynb                              # notebook that has flights_sample_large.csv as input
-│   ├── EDA_Task 5 and 7.ipynb                        # notebook that has flights_sample_large.csv as input
-│   ├── EDA_Task 6.ipynb                              # notebook that has flights_sample_large.csv as input
-│   ├── EDA_Task 8.ipynb                              # notebook that has flights_sample_large.csv as input
-│   ├── EDA_Task 9.ipynb                              # notebook that has passengers_cleaned.csv as input
-│   ├── EDA_Task 10.ipynb                             # notebook that has flights_nullsremoved.csv, fuel_cleaned.csv and passengers_cleaned.csv as inputs
-│   ├── flights data data collection.ipynb  
-│   ├── ExtractSample.ipynb                           # notebook that has flights_nullsremoved.csv as input
-│   ├── Flights Feature Selection and Data Cleaning.ipynb   #notebook that has flights_nullsremoved.csv as input
-│   ├── Dimensionality Reduction.ipynb                # notebook that has flights_cleaned.csv as input
-│   ├── Flights Outlier Detection.ipynb               # notebook that has flights_nullsremoved.csv as input
-│   ├── MODEL_SELECTION_sample creation.ipynb        notebook that creates db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv
-│   ├── MODEL_SELECTION_Regression.ipynb                           
-│   ├── MODEL_SELECTION_Multiclass_classification.ipynb                           
-│   ├── MODEL_SELECTION_Binary_classification.ipynb
-│
-│
-├── output   
-│
-│
-├── Database Structure.xlsx                           # Structure of raw database used in this project
-├── EDA notes.docx                                    # Notes and hypothesis during EDA
-├── Mid-term timeline project.docx                    # Project timeline
-│
-├── CODE_OF_CONDUCT.md 
-├── LICENSE                                           # MIT license 
-└── README.md                                         # This file
-```
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 ### System Requirements
 
