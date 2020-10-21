@@ -29,9 +29,9 @@ org/repo/
 |     |     └── flights_pca.csv                   # containing flights data following PCA   
 |     |
 |     ├── 4. Model Selection data
-|     |     ├── db_regression_sample.csv     # 1000000 observations sample for regression model selection, child of fights_scaled
-|     |     ├── db_multiclass_sample.csv     # 1000000 observations sample for regression model selection, child of fights_scaled
-|     |     ├── db_binary_sample.csv         # 1000000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_regression_sample.csv     # 10000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_multiclass_sample.csv     # 10000 observations sample for regression model selection, child of fights_scaled
+|     |     ├── db_binary_sample.csv         # 10000 observations sample for regression model selection, child of fights_scaled
 |     |     ├── db_binary_pca_sample.csv     # 1000000 observations sample for regression model selection, child of fights_pca
 |     |     ├── db_multiclass_pca_sample.csv  # 1000000 observations sample for regression model selection, child of fights_pca
 |     |     ├── db_regression_pca_sample.csv  # 1000000 observations sample for regression model selection, child of fights_pca
