@@ -72,8 +72,8 @@ org/repo/
 |     |     └── 
 |     ├── 3. Feature engineering & selection notebooks
 │     |     ├── 3_Flights Feature Selection and Data Cleaning.ipynb   # notebook that has Flights_nullsremoved.csv as input
-│     |     ├── 3_Dimensionality Reduction.ipynb                      # notebook that has flights_cleaned.csv as input
-|     |     ├── 
+│     |     ├── 3_Dimensionality Reduction.ipynb                      # notebook that has flights_scaled.csv as input
+|     |     ├── 3_Training Prep                                       # notebook that has flights_cleaned.csv as input
 |     |     └── 
 |     ├── 4. Model Selection notebooks
 |     |     ├── 4_sample_creation.ipynb       # has flights_cleaned.csv as input and has db_binary_sample.csv, db_multiclass_sample.csv and db_regression_sample.csv as outputs
