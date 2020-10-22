@@ -91,8 +91,12 @@ org/repo/
 |           ├── 9_EDA flight_test_get_week.ipynb     # notebook creating the flights_test_week.csv   / OLD NAME EDA flight_test_get_week
 │
 ├── Picklefiles/
-│     |     ├── scaler.pkl
-│     |     ├── pca.pkl
+│     ├── origin_encoder.pkl
+│     ├── dest_encoder.pkl
+│     ├── mktopcombo_encoder.pkl
+│     ├── scaler.pkl
+│     ├── pca.pkl
+│     |    
 │
 ├── output/   
 │
