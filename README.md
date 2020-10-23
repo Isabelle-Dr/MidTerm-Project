@@ -108,7 +108,7 @@ It runs on a Windows and Mac system.
 ### Data Requirements
 
 The project pulls data from the air travel industry hosted on AWS.
-The files in the Data folder in the repo have already been cleaned
+The files in the Data folder in the repo have already been cleaned. Some od the data files were to big to upload but they are still displayed in the repo organization.
 
 ### Key Outputs
 
